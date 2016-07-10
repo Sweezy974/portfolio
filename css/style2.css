@@ -1,0 +1,369 @@
+/*fonts*/
+@import url(https://fonts.googleapis.com/css?family=Orbitron:400,500|Advent+Pro|Aldrich|Alegreya+Sans+SC|Coda|Gafata|Antic+Slab|Dosis|Economica|Hind+Madurai|Six+CapsKaushan+Script|Cookie|Merienda|Graduate|Sail|Alegreya+Sans|Leckerli+One|Oleo+Script+Swash+Caps|Poiret+One|Loved+by+the+King|Allerta+Stencil);
+
+
+body{
+  background-image: url(../img/bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* DEBUT PRELOADER */
+#page-loader {
+ position: fixed;
+ right: 0;
+ bottom: 0;
+ top: 0;
+ width: 100%;
+ background: #ffffff ;
+ z-index: 3000; }
+
+#page-loader .page-loader-gif {
+ display: block;
+ width: 100px;
+ height: 100px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ margin: -32px 0 0 -50px;
+ background: url("../img/ball.svg") no-repeat;
+ z-index: 1001; }
+#page-loader p {
+ position: absolute;
+ font-size: 20px;
+ /*top: 60%;*/
+ width: 100%;
+ text-align: center; }
+
+/* FIN PRELOADER */
+
+
+/*.cd-section h2 {
+    font-size: 4rem;
+    font-weight: 300;
+    color: white;
+    font-family: "Oleo Script Swash Caps";
+    font-family: "Kaushan Script";
+    font-family: "Cookie";
+    font-family: "Merienda";
+    font-family: "Graduate";
+    font-family: "Sail";
+    font-family: "Allegrya Sans";
+    font-family: "Allerta Stencil";
+    font-family: "Loved by the King";
+
+}*/
+
+
+.navbar-default {
+    font-family: "Graduate";
+    background-color: transparent;
+    border-color: transparent;;
+    color: white;
+    border: 0px;
+}
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: "Sail";
+    font-weight:600;
+    text-transform: inherit;
+
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff9f9;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    padding: 0px;
+}
+
+
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #00a1ff;
+}
+
+#header {
+    font-weight: 300;
+    color: white;
+    /*font-family: "Oleo Script Swash Caps";*/
+
+}
+
+.navbar-default:hover{
+    font-family: "Graduate";
+    background-color: rgb(0, 0, 0);
+    border-color: black;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+.moi:hover {
+    color: #fff;
+    background-color: #00a1ff;
+}
+
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #00a1ff;
+}
+
+.slideme {
+max-width: 990px;
+max-height: 450px;
+width: 100%;
+height: 100%;
+}
+
+.fa{
+  padding-right: 2px;
+}
+
+.nav-tabs{
+  border-bottom-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a{
+    color: white;
+    background-color: #00a1ff;
+    border: 0px;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #00a1ff;
+    border: 0px;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: rgba(231, 231, 231, 0);
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #fff;
+    background-color: #00a1ff;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: #00a1ff;
+    border: 0px;
+    border-radius: 0;
+    padding: 16px;
+}
+@media screen and (max-width: 1049px) {
+  .navbar-default {
+      background-color: black;
+  }
+}
+
+@media (max-width: 1049px) {
+   #brand {
+       visibility: visible;
+   }
+   .navbar-header {
+       float: none;
+   }
+   .navbar-toggle {
+       display: block;
+   }
+   .navbar-collapse.collapse {
+       display: none!important;
+   }
+   .navbar-nav li {
+       float: none;
+   }
+   .collapse.in {
+       display: block !important;
+   }
+   .navbar-default {
+       background-color: #111;
+       .navbar-toggle {
+           border: none;
+           float: left;
+           padding: 18px 18px;
+           margin: 0;
+           background-color: $couleur2;
+           border: none;
+           border-radius: 0;
+           &:focus {
+               background-color: $couleur2;
+           }
+           &:hover {
+               background-color: $couleur2;
+           }
+           .icon-bar {
+               background-color: white;
+               border-radius: 0;
+           }
+       }
+       .navbar-collapse {
+           text-align: left;
+           box-shadow: none;
+           border: none;
+           .navbar-nav {
+               width: 100%;
+           }
+       }
+   }
+}
+
+
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img{
+    position:absolute;
+}
+
+.marge{
+  padding-top: 5%;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Graduate";
+
+}
+
+.marge2{
+  padding-top: 8%;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Graduate";
+
+}
+
+.marge3{
+  padding-top: 10%;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Graduate";
+
+}
+
+.marge4{
+  padding-top: 4%;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Graduate";
+
+}
+
+.marge5{
+  padding-top: 10%;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Graduate";
+
+}
+
+.marge6{
+  padding-top: 5%;
+  font-size: 4rem;
+  font-weight: 300;
+  color: white;
+  font-family: "Graduate";
+
+}
+.verticaltext {
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    color: #ed217c;
+}
+
+
+h3{
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.formulaire{
+  padding-top: 5%;
+}
+
+
+a:hover {
+    color: #48bdc1;
+    text-decoration: none;
+    text-shadow: 1px 1px black;
+}
+a:focus {
+    color: #48bdc1;
+    text-decoration: none;
+}
+
+a{
+  color:white;
+  text-transform: lowercase;
+}
+
+.contactaside{
+    background-image: url('../img/tokyobokeh.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+}
+.contacth1 {
+  color: white;
+  background-image: url('../img/tokyobokeh.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.socialaside{
+  background-image: url('../img/bokehwallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+
+}
+.socialh1{
+    color: white;
+  background-image: url('../img/bokehwallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h1flash:hover{
+-webkit-animation: flash 0.8s;"
+}
+
+.header:hover{
+  -webkit-animation: flash 0.8s;
+  color:white;
+  text-decoration: none;
+  text-shadow: 1px 1px black;
+
+}
+
+.carouseltitle{
+  font-family: "Graduate";
+    color: black;
+
+}
